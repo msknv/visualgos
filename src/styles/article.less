@@ -1,0 +1,29 @@
+.graph-article {
+  max-width: 500px;
+  margin: 10px auto -5px;
+  text-align: center;
+  a {
+    text-decoration: underline;
+  }
+}
+
+.graph-article p {
+  display: inline-block;
+  margin-bottom: 5px;
+  transition: color .3s;
+}
+
+.article-list {
+  padding-left: 0;
+  list-style: none;
+  &.has-links {
+    .anticon {
+      position: relative;
+      top: 1px;
+      font-size: 17px;
+    }
+    .article-list-item + .article-list-item {
+      margin-top: 20px;
+    }
+  }
+}

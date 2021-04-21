@@ -1,0 +1,44 @@
+.nav {
+  margin: 0 auto;
+  text-align: center;
+  &.is-main {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    font-size: 16px;
+    .nav-link {
+      font-size: 20px;
+    }
+  }
+  &.is-secondary {
+    .nav-link + .nav-link {
+      margin-left: 5px;
+    }
+  }
+}
+
+.nav-link {
+  transition: color .3s;
+  &.is-active {
+    color: #ff69af !important;
+    cursor: default;
+    pointer-events: none;
+  }
+}
+
+.nav-link + .nav-link {
+  margin-left: 30px;
+}
+
+.nav-text {
+  &.is-mobile {
+    .anticon {
+      margin-right: 4px;
+      position: relative;
+      top: 1px;
+    }
+  }
+  &.is-desktop {
+    display: none;
+  }
+}

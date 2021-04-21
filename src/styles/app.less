@@ -1,0 +1,79 @@
+@import "graphs";
+@import "competition";
+@import "legend";
+@import "dark-mode";
+@import "nav";
+@import "buttons";
+@import "titles";
+@import "article";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  &.has-error {
+    #root, .container {
+      height: 100%;
+    }
+    .main {
+      max-width: 600px;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+    .container.dark-mode {
+      .error-sub-title {
+        color: #fff;
+      }
+    }
+    .error-title {
+      color: #ff69af;
+    }
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.85);
+  &:hover {
+    color: #448ee4 !important;
+  }
+}
+
+p, ul {
+  a {
+    text-decoration: underline !important;
+  }
+}
+
+.container {
+  min-width: 320px;
+  padding: 0 10px;
+  transition: background .3s;
+}
+
+.header {
+  position: relative;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
+
+.main {
+  padding-bottom: 15px;
+}
+
+.ant-message-notice.message-dark .ant-message-notice-content {
+  background-color: #61666b;
+  color: #fff;
+}
+
+.about-section {
+  max-width: 315px;
+}
