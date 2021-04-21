@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/visualgos/static/css/main.f59cee42.chunk.css",
+    "main.js": "/visualgos/static/js/main.0ed0b91f.chunk.js",
+    "main.js.map": "/visualgos/static/js/main.0ed0b91f.chunk.js.map",
+    "runtime-main.js": "/visualgos/static/js/runtime-main.dfcf0b45.js",
+    "runtime-main.js.map": "/visualgos/static/js/runtime-main.dfcf0b45.js.map",
+    "static/css/2.9e00d17d.chunk.css": "/visualgos/static/css/2.9e00d17d.chunk.css",
+    "static/js/2.030498b9.chunk.js": "/visualgos/static/js/2.030498b9.chunk.js",
+    "static/js/2.030498b9.chunk.js.map": "/visualgos/static/js/2.030498b9.chunk.js.map",
+    "static/js/3.26f87346.chunk.js": "/visualgos/static/js/3.26f87346.chunk.js",
+    "static/js/3.26f87346.chunk.js.map": "/visualgos/static/js/3.26f87346.chunk.js.map",
+    "index.html": "/visualgos/index.html",
+    "static/css/2.9e00d17d.chunk.css.map": "/visualgos/static/css/2.9e00d17d.chunk.css.map",
+    "static/css/main.f59cee42.chunk.css.map": "/visualgos/static/css/main.f59cee42.chunk.css.map",
+    "static/js/2.030498b9.chunk.js.LICENSE.txt": "/visualgos/static/js/2.030498b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfcf0b45.js",
+    "static/css/2.9e00d17d.chunk.css",
+    "static/js/2.030498b9.chunk.js",
+    "static/css/main.f59cee42.chunk.css",
+    "static/js/main.0ed0b91f.chunk.js"
+  ]
+}
